@@ -1,0 +1,11 @@
+@use "variables" as *;
+
+:root {
+  font-family: $font-sans-serif;
+  color: $ivory;
+  background-color: $magenta;
+
+  a {
+    color: $yellow;
+  }
+}
