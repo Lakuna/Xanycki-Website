@@ -11,7 +11,8 @@ div.embla {
 
     & > .embla__slide {
       position: relative;
-      flex: 0 0 100%;
+      flex: 0 0 auto;
+      padding: 0px 10px;
     }
   }
 }
