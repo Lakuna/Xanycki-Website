@@ -30,6 +30,7 @@ import imageSlideshow25 from "../public/images/slideshow/25.png";
 import imageSlideshow26 from "../public/images/slideshow/26.png";
 import imageSlideshow27 from "../public/images/slideshow/27.png";
 import imageSlideshow28 from "../public/images/slideshow/28.png";
+import imageSlideshow29 from "../public/images/slideshow/29.png";
 
 export default function Index(): JSX.Element {
   return (
@@ -65,6 +66,7 @@ export default function Index(): JSX.Element {
         <Image src={imageSlideshow26} alt="Xanycki's art." quality="100" placeholder="blur" />
         <Image src={imageSlideshow27} alt="Xanycki's art." quality="100" placeholder="blur" />
         <Image src={imageSlideshow28} alt="Xanycki's art." quality="100" placeholder="blur" />
+        <Image src={imageSlideshow29} alt="Xanycki's art." quality="100" placeholder="blur" />
       </EmblaCarousel>
       <h3 style={{ textAlign: "center" }}>Commission information is available on Carrd.</h3>
     </>
