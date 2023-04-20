@@ -1,48 +1,20 @@
 {
-	"name": "xanycki-website",
-	"version": "1.0.0",
-	"description": "Xanycki's website",
-	"homepage": "https://xanycki.art",
-	"bugs": {
-		"url": "https://github.com/Lakuna/Xanycki-Website/issues",
-		"email": "tjmartin2003@gmail.com"
-	},
-	"license": "MIT",
-	"author": {
-		"name": "Travis Martin",
-		"email": "tjmartin2003@gmail.com",
-		"url": "https://lakuna.pw"
-	},
-	"funding": "https://github.com/sponsors/Lakuna",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/Lakuna/Xanycki-Website.git"
-	},
+	"private": true,
+	"type": "module",
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",
 		"start": "next start",
 		"lint": "next lint"
 	},
-	"private": true,
-	"type": "module",
 	"devDependencies": {
-		"@fortawesome/fontawesome-svg-core": "^6.1.1",
-		"@fortawesome/free-brands-svg-icons": "^6.1.1",
-		"@fortawesome/free-solid-svg-icons": "^6.1.1",
-		"@fortawesome/react-fontawesome": "^0.1.18",
-		"@typescript-eslint/eslint-plugin": "^5.13.0",
-		"@typescript-eslint/parser": "^5.13.0",
-		"embla-carousel-autoplay": "^6.2.0",
-		"embla-carousel-react": "^6.2.0",
-		"next": "^12.1.0",
-		"react": "^17.0.2",
-		"react-dom": "^17.0.2",
-		"sass": "^1.49.9",
-		"sharp": "^0.30.5",
-		"@types/node": "^17.0.21",
-		"@types/react": "^17.0.39",
-		"eslint": "8.10.0",
-		"eslint-config-next": "12.1.0"
+		"embla-carousel-autoplay": "^7.1.0",
+		"embla-carousel-react": "^7.1.0",
+		"next": "^13.3.1-canary.5",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-icons": "^4.7.1",
+		"sass": "^1.57.1",
+		"sharp": "^0.31.3"
 	}
 }
