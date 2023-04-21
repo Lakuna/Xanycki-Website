@@ -39,7 +39,7 @@ export default function Layout({ children }) {
 					<footer className={style["footer"]} />
 				</div>
 			</body>
-			<Gtag />
+			<Gtag id="G-ZDPVNVW1R6" />
 		</html>
 	);
 }
