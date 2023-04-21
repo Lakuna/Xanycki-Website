@@ -10,9 +10,9 @@ export default function Carousel({ children, className, ...props }) {
 	return (
 		<div className={`embla ${style["base"]} ${className ?? ""}`} ref={carouselRef} {...props}>
 			<div className={`embla__container ${style["container"]}`}>
-				{children ?? [].map((item, index) => {
+				{(children ?? []).map((item, index) => {
 					return (
-						<div className={`embla__slide ${styles["slide"]}`} key={index}>
+						<div className={`embla__slide ${style["slide"]}`} key={index}>
 							{item}
 						</div>
 					);

@@ -1,4 +1,4 @@
-import DynamicLink from "./DynamicLink";
+import DynamicLink from "../../shared/DynamicLink";
 import style from "./topnav.module.scss";
 import { BsTwitter, BsTwitch, BsFillHouseDoorFill, BsFillCreditCardFill } from "react-icons/bs";
 import { FaPaintBrush } from "react-icons/fa";
