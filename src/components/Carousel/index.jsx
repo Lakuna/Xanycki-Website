@@ -2,9 +2,9 @@
 
 import Autoplay from "embla-carousel-autoplay";
 import useEmblaCarousel from "embla-carousel-react";
-import style from "./carousel.module.scss";
+import style from "./style.module.scss";
 
-export default function Carousel({ children, className, ...props }) {
+export default ({ children, className, ...props }) => {
 	const [carouselRef] = useEmblaCarousel({ loop: true }, [Autoplay()]);
 
 	return (

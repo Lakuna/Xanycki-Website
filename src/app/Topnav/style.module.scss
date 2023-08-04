@@ -1,9 +1,9 @@
-@use "../../shared/variables" as *;
+@use "../../variables";
 
 nav.base {
 	&>ul {
-		background-color: $fg-color;
-		color: $text-color;
+		background-color: variables.$fg-color;
+		color: variables.$text-color;
 		list-style-type: none;
 		margin: 0px;
 		padding: 0px;
@@ -14,8 +14,8 @@ nav.base {
 
 			&>a,
 			&>button {
-				background-color: $fg-color;
-				color: $text-color;
+				background-color: variables.$fg-color;
+				color: variables.$text-color;
 				text-decoration: none;
 				display: inline-block;
 				padding: 8px 16px;
@@ -25,8 +25,8 @@ nav.base {
 				border-radius: 0px;
 
 				&:hover {
-					background-color: $bg-color;
-					color: $text-color;
+					background-color: variables.$bg-color;
+					color: variables.$text-color;
 					border: none;
 					border-radius: 0px;
 				}
