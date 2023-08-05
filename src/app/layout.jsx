@@ -2,25 +2,23 @@ import "./global.scss";
 import style from "./style.module.scss";
 import Gtag from "./Gtag.jsx";
 import Topnav from "./Topnav/index.jsx";
-import { Arvo, Ubuntu, Ubuntu_Mono } from "next/font/google";
+import { Noto_Serif, Ubuntu, Ubuntu_Mono } from "next/font/google";
 
-// TODO: Improve font quality?
-const arvo = Arvo({
-	weight: "400",
+const arvo = Noto_Serif({
 	subsets: ["latin"],
 	variable: "--font-serif",
 	fallback: ["Times New Roman", "serif"]
 });
 
 const ubuntu = Ubuntu({
-	weight: "400",
+	weight: "400", // google/fonts#6592
 	subsets: ["latin"],
 	variable: "--font-sans-serif",
 	fallback: ["Arial", "sans-serif"]
 });
 
 const ubuntuMono = Ubuntu_Mono({
-	weight: "400",
+	weight: "400", // google/fonts#6593
 	subsets: ["latin"],
 	variable: "--font-monospace",
 	fallback: ["Courier New", "monospace"]

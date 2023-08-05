@@ -15,6 +15,10 @@
 		"sass": "^1.64.2",
 		"sharp": "^0.32.4"
 	},
+	"devDependencies": {
+		"eslint": "8.46.0",
+		"eslint-config-next": "13.4.12"
+	},
 	"imports": {
 		"#app/*": "./src/app/*",
 		"#Carousel": "./src/components/Carousel/index.jsx",
@@ -23,9 +27,5 @@
 		"#generateMetadata": "./src/generateMetadata.js"
 	},
 	"type": "module",
-	"private": true,
-	"devDependencies": {
-		"eslint": "8.46.0",
-		"eslint-config-next": "13.4.12"
-	}
+	"private": true
 }
