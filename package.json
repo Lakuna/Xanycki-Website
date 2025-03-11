@@ -1,31 +1,41 @@
 {
+	"private": true,
+	"type": "module",
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",
 		"start": "next start",
-		"lint": "next lint"
+		"lint": "next lint",
+		"beautify": "prettier . --write"
 	},
 	"dependencies": {
-		"embla-carousel-autoplay": "^8.0.0-rc11",
-		"embla-carousel-react": "^8.0.0-rc11",
-		"next": "^14.2.15",
-		"react": "^18.2.0",
-		"react-dom": "^18.2.0",
-		"react-icons": "^4.10.1",
-		"sass": "^1.64.2",
-		"sharp": "^0.32.6"
+		"embla-carousel": "^8.5.2",
+		"embla-carousel-autoplay": "^8.5.2",
+		"embla-carousel-react": "^8.5.2",
+		"next": "^15.2.1",
+		"react": "^19.0.0",
+		"react-dom": "^19.0.0",
+		"react-icons": "^5.5.0",
+		"sass": "^1.85.1",
+		"sharp": "^0.33.5"
 	},
 	"devDependencies": {
-		"eslint": "8.46.0",
-		"eslint-config-next": "13.4.12"
-	},
-	"imports": {
-		"#app/*": "./src/app/*",
-		"#Carousel": "./src/components/Carousel/index.jsx",
-		"#domain": "./src/domain.js",
-		"#DynamicLink": "./src/components/DynamicLink.jsx",
-		"#generateMetadata": "./src/generateMetadata.js"
-	},
-	"type": "module",
-	"private": true
+		"@eslint/eslintrc": "^3.3.0",
+		"@eslint/js": "^9.22.0",
+		"@types/eslint": "^9.6.1",
+		"@types/eslint-config-prettier": "^6.11.3",
+		"@types/node": "^22.13.10",
+		"@types/react": "^19.0.10",
+		"@types/react-dom": "^19.0.4",
+		"@typescript-eslint/eslint-plugin": "^8.26.0",
+		"@typescript-eslint/parser": "^8.26.0",
+		"eslint": "^9.22.0",
+		"eslint-config-next": "15.2.1",
+		"eslint-config-prettier": "^10.1.1",
+		"eslint-plugin-prettier": "^5.2.3",
+		"prettier": "^3.5.3",
+		"sass": "^1.85.1",
+		"typescript": "^5.8.2",
+		"typescript-eslint": "^8.26.0"
+	}
 }

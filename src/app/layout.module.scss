@@ -1,10 +1,13 @@
-div.spacer {
+@use "../styles/variables";
+
+body.spacer {
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
 	justify-content: flex-start;
 
-	&>footer.footer {
+	& > footer {
 		margin-top: auto;
+		background-color: variables.$fg-color;
 	}
 }

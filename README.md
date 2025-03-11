@@ -1,3 +1,3 @@
 # Xanycki's Website
 
-Xanycki's website.
+Xanycki's art portfolio website.

@@ -1,0 +1,37 @@
+@use "variables" as v;
+
+:root {
+	font-family: v.$font-sans-serif;
+	color: v.$text-color;
+	background-color: v.$bg-color;
+
+	--bg-color: #{v.$magenta};
+	--fg-color: #{v.$pink};
+	--text-color: #{v.$yellow};
+	--theme-color: #{v.$ivory};
+	color-scheme: dark;
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: v.$theme-color;
+}
+
+body {
+	margin: 0px;
+}
+
+hr {
+	color: v.$theme-color;
+	background-color: v.$theme-color;
+	border-color: v.$theme-color;
+}
+
+main {
+	margin: 8px;
+}

@@ -1,0 +1,20 @@
+// Standard mobile breakpoint; 4:3 XGA height.
+$mobile-breakpoint: 768px;
+
+// Dark theme color palette.
+$white: #ffffff;
+$black: #000000;
+$ivory: #fffff0;
+$yellow: #ffe791;
+$orange: #ffa94d;
+$magenta: #1e0218;
+$pink: #450e23;
+
+// Sass variables for CSS variables.
+$font-serif: var(--font-serif);
+$font-sans-serif: var(--font-sans-serif);
+$font-monospace: var(--font-monospace);
+$bg-color: var(--bg-color);
+$fg-color: var(--fg-color);
+$text-color: var(--text-color);
+$theme-color: var(--theme-color);

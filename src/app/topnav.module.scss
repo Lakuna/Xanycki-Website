@@ -1,0 +1,28 @@
+@use "../styles/variables" as v;
+
+// Top navigation bar.
+nav.topnav > ul {
+	background-color: v.$fg-color;
+	display: flex;
+
+	// Remove default list stylization.
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+
+	// Top navigation bar item.
+	& > li {
+		&:hover {
+			background-color: v.$bg-color;
+		}
+
+		// Top navigation bar item link.
+		& > a {
+			color: v.$text-color;
+			display: inline-block;
+			font-size: 1.5em;
+			padding: 8px 16px;
+			text-decoration: none;
+		}
+	}
+}
